@@ -1,0 +1,28 @@
+{
+  "name": "datastructures-algorithms-ztm",
+  "version": "1.0.0",
+  "description": "Datastrcutures & algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'tests/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaijulien/datastructures-algorithms-ztm.git"
+  },
+  "keywords": [
+    "javascript",
+    "datastructures",
+    "algorithms"
+  ],
+  "author": "Julien Mihai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihaijulien/datastructures-algorithms-ztm/issues"
+  },
+  "homepage": "https://github.com/mihaijulien/datastructures-algorithms-ztm#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1"
+  }
+}
