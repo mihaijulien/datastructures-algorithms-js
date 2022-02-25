@@ -23,12 +23,12 @@ describe('Stack Test', () => {
             stack.push('hi');
             stack.push('hello');
             assert.equal(stack.peek(), 'hello');
-        })
+        });
         it('Clear stack function, stack should be empty', () => {
             stack.push(1);
             stack.push(2);
-            stack.clear()
+            stack.clear();
             assert.isTrue(stack.isEmpty());
-        })
-    })
-})
+        });
+    });
+});

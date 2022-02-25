@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const { Array, MyArray } = require('../src/Array.js');
+const { MyArray } = require('../src/Array.js');
 
 describe('Array Test', () => {
     describe('Test Methods', () => {
@@ -25,6 +25,6 @@ describe('Array Test', () => {
             arr.push(2);
             arr.delete(0);
             assert.equal(arr.get(0), 2);
-        })
-    })
-})
+        });
+    });
+});

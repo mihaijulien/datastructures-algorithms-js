@@ -11,7 +11,7 @@ class Queue{
 
     dequeue(){
         if(this.isEmpty()){
-            return "Queue is empty";
+            return 'Queue is empty';
         }
         this.length--;
 
@@ -20,7 +20,7 @@ class Queue{
 
     peek(){
         if(this.isEmpty()){
-            return "Queue is empty";
+            return 'Queue is empty';
         }
         return this.queue[0];
     }
@@ -41,4 +41,4 @@ class Queue{
 
 module.exports = {
     Queue
-}
+};

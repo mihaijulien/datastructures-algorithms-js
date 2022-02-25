@@ -24,6 +24,8 @@ class MyArray{
     delete(index){
         const item = this.data[index];
         this.shiftItems(index);
+
+        return item;
     }
 
     shiftItems(index){
@@ -41,4 +43,4 @@ class MyArray{
 
 module.exports = {
     MyArray
-}
+};

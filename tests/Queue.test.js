@@ -24,12 +24,12 @@ describe('Queue Test', () => {
             queue.enqueue('hi');
             queue.enqueue('hello');
             assert.equal(queue.peek(), 'hi');
-        })
+        });
         it('Clear queue function, queue should be empty', () => {
             queue.enqueue(1);
             queue.enqueue(2);
-            queue.clear()
+            queue.clear();
             assert.isTrue(queue.isEmpty());
-        })
-    })
-})
+        });
+    });
+});

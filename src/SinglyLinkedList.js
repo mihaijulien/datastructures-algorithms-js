@@ -84,7 +84,7 @@ class SinglyLinkedList {
 
     #printListRecursive(node){
         if(!node){
-            return
+            return;
         }
         console.log(node.key + ' ');
         this.#printListRecursive(node.next);
@@ -100,4 +100,4 @@ class Node {
 
 module.exports = {
     SinglyLinkedList
-}
+};

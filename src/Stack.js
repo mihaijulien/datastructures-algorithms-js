@@ -11,7 +11,7 @@ class Stack{
 
     pop(){
         if(this.isEmpty()){
-            return "Stack is empty";
+            return 'Stack is empty';
         }
 
         this.length--;
@@ -20,7 +20,7 @@ class Stack{
     
     peek(){
         if(this.isEmpty()){
-            return "Stack is empty";
+            return 'Stack is empty';
         }
         return this.stack[this.length - 1];
     }
@@ -41,4 +41,4 @@ class Stack{
 
 module.exports = {
     Stack
-}
+};

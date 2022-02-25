@@ -24,6 +24,6 @@ describe('LinkedList Test', () => {
             list.insert(1);
             list.insert(2);
             assert.equal(list.indexOf(1), 0);
-        })
-    })
-})
+        });
+    });
+});
