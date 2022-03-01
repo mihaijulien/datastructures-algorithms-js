@@ -1,1 +1,3 @@
-# datastructures-algorithms-ztm
+# Data Structures and Algorithms
+
+Data structures and implementation in javascript
