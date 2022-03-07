@@ -1,5 +1,5 @@
 class BinarySearchTree {
-    construct() {
+    constructor() {
         this.root = null;
     }
 
